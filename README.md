@@ -5,7 +5,8 @@ webpack-dev-server
 
 ## Naive version
 
-1. Go to http://localhost:8080/webpack-dev-server/#naive
+1. Go to http://localhost:8080/webpack-dev-server/#naive (make sure you see
+   the heading Naive App)
 2. Open up the console.
 3. Add some notes.
 4. Delete some notes.
@@ -15,7 +16,8 @@ you delete, all the other notes get re-rendered.
 
 ## Immutable version (no fancy libs, just simple use of `concat` and `filter`)
 
-1. Go to http://localhost:8080/webpack-dev-server/#immutable
+1. Go to http://localhost:8080/webpack-dev-server/#immutable (make sure you see
+   the heading Immutable App)
 2. Open up the console.
 3. Add some notes.
 4. Delete some notes.
