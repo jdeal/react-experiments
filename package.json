@@ -1,0 +1,25 @@
+{
+  "name": "react-experiments",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin Deal <justin.deal@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.2.11",
+    "babel-eslint": "^3.0.1",
+    "babel-loader": "^5.0.0",
+    "eslint": "^0.20.0",
+    "eslint-plugin-react": "^2.2.0",
+    "webpack": "^1.8.11"
+  },
+  "dependencies": {
+    "eventemitter3": "^1.0.1",
+    "lodash": "^3.8.0",
+    "react": "^0.13.2",
+    "react-router": "^0.13.3"
+  }
+}
