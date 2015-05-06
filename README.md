@@ -37,3 +37,10 @@ version. They're almost identical except for a few differences.
 - The store for the immutable version never mutates its data in place. It always
   creates new data. But it keeps as much of the old data around as possible, so
   that equality test will pass!
+
+So, to do this:
+
+- Just start adding in PureRenderMixin everywhere. You'll have no choice but to
+  make your data immutable. :-)
+- Don't naively clone your data, or you'll be right back to over-rendering.
+- Make sure you don't mutate in place, or you'll under-render.
