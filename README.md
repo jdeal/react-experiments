@@ -1,6 +1,6 @@
 ```js
 npm install
-webpack-dev-server
+npm start
 ```
 
 ## Naive version

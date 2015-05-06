@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
   },
   "author": "Justin Deal <justin.deal@gmail.com>",
   "license": "ISC",
@@ -14,7 +15,8 @@
     "babel-loader": "^5.0.0",
     "eslint": "^0.20.0",
     "eslint-plugin-react": "^2.2.0",
-    "webpack": "^1.8.11"
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2"
   },
   "dependencies": {
     "eventemitter3": "^1.0.1",
